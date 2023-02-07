@@ -110,7 +110,6 @@ struct EmojiMemoryGameView: View {
     var shuffleButton : some View {
         Button ("Shuffle"){
             withAnimation{
-                
                 game.shuffle()
             }
         }.font(.largeTitle)
